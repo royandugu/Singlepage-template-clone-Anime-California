@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Anime California - Home</title>
+	<link rel="stylesheet" type="text/css" href="perCSS/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+</head>
+<body>
+	<!---Top Row of Icons--->
+	<div id="topFlexBox" class="bg-dark">
+		<div class="topFlexContent">
+			<i class="fab fa-youtube"></i>
+			<i class="fab fa-google-plus-g"></i>
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+		</div>
+	</div>
+
+	<!---Below Icon, Menu and the heading--->
+	<div id="headerTab">
+		<div class="gridTitle">
+			<div class="imageHolder">
+				<img src="Images/logo.png"/>
+			</div>
+			<div class="titleHolder">
+				<h1 class="forGap"> Anime </h1>
+				<h1> California </h1>
+			</div>
+		</div>
+		<div class="menu d-none d-lg-block">
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#"> Home</a>
+				</li>
+				<li>
+					<a href="#"> Events</a>
+				</li>
+				<li>
+					<a href="#"> Guests </a>
+				</li>
+				<li>
+					<a href="#"> Register</a>
+				</li>
+				<li>
+					<a href="#"> Vendors </a>
+				</li>
+				<li> 
+					<a href="#"> Location </a>
+				</li>
+				<li>
+					<a href="#"> About </a>
+				</li>
+			</ul>
+		</div>
+		<div class="menuSML d-block d-lg-none">
+			<i class="fas fa-bars" onclick="displaySmallMenu()"></i>
+		</div>		
+	</div>
+	<div id="slideDownMenu" class="d-block d-lg-none displayFalse">
+			<ul class="nav flex-column">
+				<li class="nav-item activeSml">
+					<a href="#" class="nav-link"> Home </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> Events </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> Guests </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> Register </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> Vendors </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> Location </a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"> About </a>
+				</li>
+			</ul>
+	</div>
+
+	<!---News box and title--->
+	<div class="container-fluid">
+		<div class="topRow row">
+			<div class="col-lg-6 col-12 columnOne">
+				<img src="Images/frontImage.png" class="img-fluid"/>
+				<div class="d-block d-lg-none smlParagraphSmlView">
+					<p><span class="colorIt"> #webdesign</span> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				temporlabore et dolor.<span class="colorIt">@twitter</span></p>
+				
+				</div>
+			</div>
+			<div class="col-lg-1 col-12">
+
+			</div>
+			<div class="col-lg-5 col-12 columnTwo">
+				<div class="newsBox bg-light">
+					<div class="heading bg-dark">
+						<h1 class="text-light"> Hot news</h1>
+						<h3> See all articles </h3>
+					</div>
+					<div class="body">
+						<div class="gridBox">
+							<div class="thumbnailHolder">
+								<img src="Images/thumbnailOne.png"/>
+							</div>
+							<div class="paragraphHolders">
+								<h1 class="color"> News Title</h1>
+								<h5> January 1, 2019</h5>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. tempor incididunt ut labore </p>
+								<button> Read more </button>
+							</div>
+						</div>
+						<div class="gridBox">
+							<div class="thumbnailHolder">
+								<img src="Images/thumbnailTwo.png"/>
+							</div>
+							<div class="paragraphHolders">
+								
+								<h1 class="color"> News Title</h1>
+								<h5> January 1, 2019</h5>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. tempor incididunt ut labore </p>
+								<button> Read more </button>
+							</div>
+						</div>
+						<div class="gridBox">
+							<div class="thumbnailHolder">
+								<img src="Images/thumbnailThree.jpg"/>
+							</div>
+							<div class="paragraphHolders">
+								
+								<h1 class="color"> News Title</h1>
+								<h5> January 1, 2019</h5>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. tempor incididunt ut labore </p>
+								<button> Read more </button>
+							</div>
+						</div>
+						<div class="gridBox">
+							<div class="thumbnailHolder">
+								<img src="Images/thumbnailFour.jpg"/>
+							</div>
+							<div class="paragraphHolders">
+								
+								<h1 class="color"> News Title</h1>
+								<h5> January 1, 2019</h5>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. tempor incididunt ut labore </p>
+								<button> Read more </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-6 textContainer">
+			<div class="twitterLogo">
+				<span class="colorIt"><i class="fab fa-twitter"></i></span>
+			</div>
+			<div class="smlParagraph">
+				<p><span class="colorIt"> #webdesign</span> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				temporlabore et dolor.<span class="colorIt">@twitter</span></p>
+				
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+	<!--- The middle bar with a slash--->
+	<div class="container-fluid middleBarContainer">
+		<div class="row">
+			<div class="col-lg-6 col-12 theOrangeContainer">
+				<h4> Join us for the </h4>
+				<h3> Best anime convention </h3>
+				<h1> Ever </h1>
+				<button class="registerBtn"> Register now </button>
+			</div>
+			<div class="col-lg-6 col-12 bg-dark theDarkContainer">
+				<h4> March 1.3.14-1.5.14 </h4>
+				<h4 class="middleOne"> Los angeles marriot </h4>
+				<h4 class="endOne"> Doors open at 6 </h4>
+			</div>
+		</div>
+	</div>
+
+
+	<!--The text portion below the middle bar-->
+	<div class="container-fluid definitionPortion">
+		<div class="row oneWithBackground">
+			<div class="col-lg-3 col-md-3 col-12">
+				<img src="Images/cd.svg" class="img-fluid"/>
+			</div>
+			<div class="col-lg-9 col-md-9 col-12 paragraphHolder">
+				<h1> What is Anime California ?</h1>
+				<div class="d-none d-md-block">
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="d-block d-md-none">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span class="clickableShort">Read more</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!---Contact information---->
+	<div class="container-fluid contactInfoHolder">
+		<div class="row">
+			<div class="col-lg-3 col-12 logoHolderTwo">
+				<img src="Images/bottomLogo.svg"/>
+			</div>
+			<div class="col-lg-3 col-12 charactersticOne">
+				<h5> Site map </h5>
+				<p> Events </p>
+				<p> Guests </p>
+				<p> Register </p>
+				<p> Location </p>
+				<p> About </p>
+				<p> Contact </p>
+			</div>
+			<div class="col-lg-3 col-12 charactersticOne">
+				<h5> Our Sponsors</h5>
+				<p> Company 1 </p>
+				<p> Company 2 </p>
+				<p> Comapny 3 </p>
+				<p> Company 4 </p>
+				<p> Company 5 </p>
+			</div>
+			<div class="col-lg-3 col-12 submissonForm">
+				<h5> Stay Updated </h5>
+				<p> Fill out this form and we'll email you when we announce epic new guests and special events ! </p>
+				<form>
+					<input type="text" placeholder="Name" required/>
+					<input type="text" placeholder="Email" required/>
+					<input type="text" placeholder="Cell(optional)"/><br>
+					<button type="submit"> Submit </button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!---Copyright information---->
+	<div class="copyrightHolder bg-dark">
+		<h5>@ Developed and cloned by Royan Dugu </h5>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="JS/index.js"></script>
+<script src="https://kit.fontawesome.com/3c2a34836f.js" crossorigin="anonymous"></script>
+</html>
